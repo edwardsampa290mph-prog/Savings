@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "K10 Daily",
+      "hasCanvas": false,
+      "bodyTextLen": 2344,
+      "bodyTextHash": "0fdabff7b87c1f96f7094152c3f0cab94997fc521d0ed77b6031daa71b3c8e5a",
+      "bodyTextPrefix": "K10 DAILY Fri 11 Sept 10:58 CAT PATUMBA · RUNNING TOTAL K542.48 ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "K10 Daily",
+      "hasCanvas": false,
+      "bodyTextLen": 2261,
+      "bodyTextHash": "42f11363188a9f4a5927729df4f4ca1aa0907b9c916c1f3ee323950d97bc8c0f",
+      "bodyTextPrefix": "K10 DAILY 10:58 CAT PATUMBA · RUNNING TOTAL K542.48 7.4% of K7,3",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text replaced (similar length, page start changed)",
+    "mobile: body text replaced (similar length, page start changed)"
+  ]
+}
