@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "K10 Daily",
+      "hasCanvas": false,
+      "bodyTextLen": 114,
+      "bodyTextHash": "ee2d1bd3021e0441e6c3fdbd1af9652f192be28f1dcf9e9b177c0e4c662bd4d0",
+      "bodyTextPrefix": "Set a 4-digit PIN This stays on this device. You’ll need it afte",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "K10 Daily",
+      "hasCanvas": false,
+      "bodyTextLen": 114,
+      "bodyTextHash": "ee2d1bd3021e0441e6c3fdbd1af9652f192be28f1dcf9e9b177c0e4c662bd4d0",
+      "bodyTextPrefix": "Set a 4-digit PIN This stays on this device. You’ll need it afte",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
