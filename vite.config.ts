@@ -170,7 +170,11 @@ export default defineConfig(({ command, isPreview }) => ({
     ...(command === "build" || isPreview
       ? [
           nitro({
-            preset: "vercel",
+            // Emit Netlify's framework-function layout under
+            // `.netlify/functions-internal` and static assets under `dist`.
+            // A Vercel preset leaves Netlify with only the static directory,
+            // so the TanStack Start SSR catch-all is never deployed.
+            preset: "netlify",
             // Auto-registers server/middleware/* (the PWA install page +
             // manifest + head-tag middleware). Nitro v3 defaults serverDir to
             // false, so removing this silently unwires /?install=1 on deploys.
